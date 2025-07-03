@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My E-Commerce Website</title>
+</head>
+<body>
+  <header>
+    <h1>My E-Commerce Website</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/products">Products</a>
+      <a href="/cart">Cart</a>
+      <a href="/checkout">Checkout</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Products</h2>
+      <ul>
+        <li><a href="/product/1">Product 1</a></li>
+        <li><a href="/product/2">Product 2</a></li>
+        <li><a href="/product/3">Product 3</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Cart</h2>
+      <ul>
+        <li>Product 1</li>
+        <li>Product 2</li>
+        <li>Product 3</li>
+      </ul>
+      <p>Total: $100</p>
+      <a href="/checkout">Checkout</a>
+    </section>
+    <section>
+      <h2>Checkout</h2>
+      <form action="/checkout" method="post">
+        <input type="text" name="name" placeholder="Name">
+        <input type="email" name="email" placeholder="Email">
+        <input type="address" name="address" placeholder="Address">
+        <input type="cardnumber" name="cardnumber" placeholder="Card Number">
+        <input type="cvv" name="cvv" placeholder="CVV">
+        <input type="submit" value="Checkout">
+      </form>
+    </section>
+   </section>
+  </main>
+  <footer>
+    <p>© 2021 My E-Commerce Website</p>
+  </footer>
+</body>
+</html>
